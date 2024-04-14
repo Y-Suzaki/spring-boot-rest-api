@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: user-api
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_boot_rest_api_db
+    username: ubuntu
+    password: ubuntu
+#    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
